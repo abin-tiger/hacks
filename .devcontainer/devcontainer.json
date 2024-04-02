@@ -3,15 +3,14 @@
   "features": {
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.10",
-      "installJupyterlab": "true"
+      "version": "3.10"
     }
   },
   "forwardPorts": [8400],
   "customizations": {
     "vscode": {
       "settings": {},
-      "extensions": ["streetsidesoftware.code-spell-checker"]
+      "extensions": ["ms-toolsai.jupyter"]
     }
   },
   "postCreateCommand": "pip install -r /workspaces/codes/deploy/requirements.txt"
