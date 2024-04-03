@@ -13,5 +13,5 @@
       "extensions": ["ms-toolsai.jupyter"]
     }
   },
-  "postCreateCommand": "pip install -r codes/deploy/requirements.txt"
+  "postCreateCommand": "pip install -e codes/"
 }
