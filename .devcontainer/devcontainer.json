@@ -6,7 +6,7 @@
       "version": "3.10"
     }
   },
-  "forwardPorts": [8501],
+  "forwardPorts": [8400, 8501],
   "customizations": {
     "vscode": {
       "settings": {},
